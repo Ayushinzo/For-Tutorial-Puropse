@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translator- Translate your text for free</title>
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 700px)" href="static/responsive.css">
+</head>
+<body>
+    <div id="main">
+        <div id="head1">
+            <h1>Translator</h1>
+        </div>
+        <div class="page1">
+            <h2>Source Text</h2>
+        </div>
+        <div class="textInput">
+            <textarea cols="70" rows="9" placeholder="Enter the Text"></textarea>
+        </div>
+        <label>Select the language:</label><select>
+                            <option value="nothing" selected>---Select the language---</option> 
+                            </select>
+                            <br>
+        <center><button id="btn">Translate</button></center>
+        <div class="page1" id="des">
+            <h2>Dsetination Text</h2>
+        </div>
+        <div class="textInput" id="output">
+            <textarea cols="70" rows="9" readonly></textarea>
+        </div>
+    </div>
+    <script src="static/script.js"></script>
+</body>
+</html>
